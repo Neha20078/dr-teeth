@@ -59,11 +59,11 @@ export function Footer() {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>123 Dental Street, Chennai, TN 600001</span>
+                <span> DR.Teeth,Shop no.05,Prasanna Dham Apartment,Chinchpada road,Kalyan </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>90295 39068</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 flex-shrink-0" />

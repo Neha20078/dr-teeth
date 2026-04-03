@@ -28,9 +28,7 @@ export function ContactSection() {
                     Address
                   </h3>
                   <p className="text-gray-600">
-                    123 Dental Street, Medical District<br />
-                    Chennai, Tamil Nadu 600001
-                  </p>
+                    DR.Teeth,Shop no.05,Prasanna Dham Apartment,Chinchpada road,Kalyan  </p>
                 </div>
               </div>
 
@@ -46,8 +44,7 @@ export function ContactSection() {
                     Phone
                   </h3>
                   <p className="text-gray-600">
-                    +91 98765 43210<br />
-                    +91 98765 43211
+                    90295 39068 
                   </p>
                 </div>
               </div>
@@ -109,7 +106,7 @@ export function ContactSection() {
                   </label>
                   <input
                     type="text"
-                    placeholder="John Doe"
+                    placeholder="Enter your name"
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#003049] focus:outline-none transition-colors"
                   />
                 </div>
@@ -120,7 +117,7 @@ export function ContactSection() {
                   </label>
                   <input
                     type="tel"
-                    placeholder="+91 98765 43210"
+                    placeholder="Enter your phone number"
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#003049] focus:outline-none transition-colors"
                   />
                 </div>
