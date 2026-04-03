@@ -1,6 +1,5 @@
 import { Star, Award, CheckCircle2 } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import doctorImg from "../../assets/padmanaban.png";
 
 export function AboutDoctor() {
   return (
@@ -9,7 +8,7 @@ export function AboutDoctor() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <ImageWithFallback
-              src={doctorImg}
+              src="/src/assets/padmanaban.png"
               alt="Dr. Padmanaban"
               className="rounded-2xl shadow-lg w-full object-cover"
             />
