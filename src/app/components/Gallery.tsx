@@ -3,27 +3,27 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function Gallery() {
   const images = [
     {
-      src: "/src/assets/clinic_img-1.png",
+      src: new URL("../../assets/clinic_image-1.png", import.meta.url).href,
       alt: "Modern waiting room"
     },
     {
-      src: "/src/assets/clinic_image-2.png",
+      src: new URL("../../assets/clinic_image-2.png", import.meta.url).href,
       alt: "Clinic interior"
     },
     {
-      src: "/src/assets/clinic_image-3.png",
+      src: new URL("../../assets/clinic_image-3.png", import.meta.url).href,
       alt: "Modern facility"
     },
     {
-      src: "/src/assets/clinic_image-4.png",
+      src: new URL("../../assets/clinic_image-4.png", import.meta.url).href,
       alt: "Reception area"
     },
     {
-      src: "/src/assets/clinic_image-5.png",
+      src: new URL("../../assets/clinic_image-5.png", import.meta.url).href,
       alt: "Clean hallway"
     },
     {
-      src: "/src/assets/clinic_image-6.png",
+      src: new URL("../../assets/clinic_image-6.png", import.meta.url).href,
       alt: "Consultation area"
     }
   ];

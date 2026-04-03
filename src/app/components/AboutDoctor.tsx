@@ -1,6 +1,8 @@
 import { Star, Award, CheckCircle2 } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
+const doctorImageUrl = new URL("../../assets/padmanaban.png", import.meta.url).href;
+
 export function AboutDoctor() {
   return (
     <section id="about" className="py-20" style={{ backgroundColor: '#F9FAFB' }}>
@@ -8,7 +10,7 @@ export function AboutDoctor() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <ImageWithFallback
-              src="/src/assets/padmanaban.png"
+              src={doctorImageUrl}
               alt="Dr. Padmanaban"
               className="rounded-2xl shadow-lg w-full object-cover"
             />

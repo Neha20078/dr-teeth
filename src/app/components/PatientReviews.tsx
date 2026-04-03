@@ -28,6 +28,8 @@ export function PatientReviews() {
     }
   ];
 
+  const getStarCount = (rating: number) => Math.max(0, Math.min(5, Math.round(rating)));
+
   return (
     <section id="reviews" className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +49,7 @@ export function PatientReviews() {
               className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="flex items-center gap-1 mb-4">
-                {[...Array(review.rating)].map((_, i) => (
+                {Array.from({ length: getStarCount(review.rating) }).map((_, i) => (
                   <Star
                     key={i}
                     className="w-5 h-5"
