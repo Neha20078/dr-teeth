@@ -95,9 +95,10 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-gray-300">
-          <p>&copy; 2026 Dr. Teeth Dental Clinic. All rights reserved.
+          <p>&copy; 2026 Dr. Teeth Dental Clinic. All rights reserved.</p>
+          <p className="mt-2 text-sm">
             Developed and designed by Neha Anil Bagal</p>
-          </p>
+          
         </div>
       </div>
     </footer>
