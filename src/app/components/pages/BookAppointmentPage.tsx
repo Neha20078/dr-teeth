@@ -455,34 +455,24 @@ export default function BookAppointmentPage() {
 								</CardHeader>
 								<CardContent className="grid gap-4 pt-0 md:grid-cols-3">
 									{visitSteps.map((step, index) => (
-										<div
-										key={step.title}
-										className="flex gap-4 rounded-2xl bg-slate-50 p-4"
-										>
-										<div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#fcbf49] text-sm font-semibold text-[#003049]">
-											{index + 1}
-										</div>
-
-										<div>
-											<h3 className="text-base text-[#003049]">
-											{step.title}
-											</h3>
-
-											<p className="mt-1 text-sm leading-6 text-slate-600">
-											{step.description}
-											</p>
-
-											{/* 👇 Location Button Added */}
-											<a
-											href="https://maps.app.goo.gl/wnAu1mt8BXmTSrLu8"
-											target="_blank"
-											rel="noopener noreferrer"
-											className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-[#003049] hover:underline"
-											>
-											📍 Visit Clinic
-											</a>
-										</div>
-										</div>
+										<div key={step.title} className="flex gap-4 rounded-2xl bg-slate-50 p-4">
+											<div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#fcbf49] text-sm font-semibold text-[#003049]">
+												{index + 1}
+											</div>
+											<div>
+												<h3 className="text-base text-[#003049]">{step.title}</h3>
+												<p className="mt-1 text-sm leading-6 text-slate-600">{step.description}</p>
+												{/* Location Button */}
+												<a
+													href="https://maps.app.goo.gl/wnAu1mt8BXmTSrLu8"
+													target="_blank"
+													rel="noopener noreferrer"
+													className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-[#003049] hover:underline"
+												>
+													📍 Get Directions
+												</a>
+											</div>
+											</div>
 									))}
 								</CardContent>
 							</Card>
