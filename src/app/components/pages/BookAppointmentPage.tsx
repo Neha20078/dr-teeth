@@ -469,18 +469,7 @@ export default function BookAppointmentPage() {
 							</Card>
 						</div>
 
-						<Card className="border-dashed border-[#003049]/15 bg-white/70">
-							<CardContent className="flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
-								<div>
-									<p className="text-sm font-medium uppercase tracking-[0.25em] text-[#f77f00]">Need help now?</p>
-									<p className="mt-2 text-lg text-[#003049]">If you have sudden pain or swelling, call us directly so we can prioritize you.</p>
-								</div>
-								<Button className="h-12 bg-[#003049] text-white hover:bg-[#00263a]">
-									<Phone className="h-4 w-4" />
-									Emergency call
-								</Button>
-							</CardContent>
-						</Card>
+						
 					</div>
 				</div>
 			</section>
